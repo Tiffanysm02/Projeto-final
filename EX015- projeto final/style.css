@@ -1,0 +1,173 @@
+/* /* *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+   /* max-width: 1200px;
+    margin: 0 auto; */
+}
+
+/* header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(192, 189, 189);
+    padding: 10px 20px;
+}
+
+h1{
+    line-height: .9em;
+    margin-right: 20px;
+
+}
+
+#navegador{
+    display: flex;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+main{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+
+/* @media screen and (min-width:640px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    main img{
+        width: 600px;
+    }
+
+    main p{
+        width: 400px;
+    }
+} */
+
+
+
+/* style.css */
+
+/* Reset de estilos */
+body, h1, h2, p, form, input, nav, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+   
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  #navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+  }
+  
+  img {
+      
+      max-width: 800px;
+      height: auto;
+    }
+  
+  aside {
+    max-width: 500px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: #000000;
+  }
+  
+  form {
+    margin-top: 20px;
+    
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+  }
+  
+  input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+   
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #645e5e;
+  } 
+
+  body{
+    background-color: black;
+  }
+
+  p{
+    color: white;
+  }
+  
+ 
